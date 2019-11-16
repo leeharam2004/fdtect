@@ -4,7 +4,6 @@ from os import listdir
 from os.path import isfile, join
 from socket import *
 import time
-#219.250.202.101
 ip_adr=input("Enter ip addr:")
 clientSock = socket(AF_INET, SOCK_STREAM)
 clientSock.connect((ip_adr, 4555))
